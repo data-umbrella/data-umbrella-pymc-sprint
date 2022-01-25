@@ -169,6 +169,12 @@ Switched to a new branch 'docstring_update'
 
 For me, I hit <kbd> q <kbd> to exit.
   
+---
+  
+## PART 6: Set up working environment
+  
+  <kbd> conda env create -f conda-envs/environment-dev-py38.yml </kbd>
+  
   
 
 
