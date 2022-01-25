@@ -1,4 +1,6 @@
-## PyMC Environment Setup
+# Contributing to PyMC
+
+## PART 1: Pre-reqs to Contributing
 
 ### GitHub Account
 
@@ -34,3 +36,23 @@ Python 3.9.7
 ### Text Editor
 Visual Studio Code
 
+---
+
+## PART 2: Go to my working directory
+
+NOTE: I use a directory called `software-build` where I clone my python libraries to which I contribute.  
+
+```bash
+▶ pwd
+/Users/reshamashaikh
+(base) 
+~                                                                     
+▶ cd software-build 
+(base) 
+~/software-build                                                      
+▶ pwd
+/Users/reshamashaikh/software-build
+(base) 
+~/software-build                                                      
+▶ 
+```
