@@ -140,6 +140,38 @@ upstream	git@github.com:pymc-devs/pymc.git (push)
 ▶ 
 ```
 
+---
+
+## PART 4: Find an issue
+
+I will work on this issue:  xxx
+
+
+## PART 5: Create a feature branch
+
+<kbd> git checkout -b docstring_update </kbd>
+
+```bash
+▶ git checkout -b docstring_update
+Switched to a new branch 'docstring_update'
+(base) 
+~/software-build/pymc  docstring_update ✔                         2d  
+▶ 
+```
+
+<kbd> git branch </kbd>
+
+```bash
+* docstring_update
+  main
+(END)
+```
+
+For me, I hit <kbd> q <kbd> to exit.
+  
+  
+
+
 
 
 
