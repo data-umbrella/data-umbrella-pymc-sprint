@@ -172,9 +172,36 @@ For me, I hit <kbd> q </kbd> to exit.
 ---
   
 ## PART 6: Set up working environment
-  
+
+### 6.1: Create the working environment
   <kbd> conda env create -f conda-envs/environment-dev-py38.yml </kbd>
-  
+
+NOTE: This step took me about 5 minutes on my Mac. 
+
+### 6.2: Activate the working environment
+
+<kbd> conda activate pymc-dev-py38 </kbd>
+
+```bash
+▶ conda activate pymc-dev-py38 
+(pymc-dev-py38) 
+~/software-build/pymc  main ✔                                     2d  
+▶ 
+```
+
+### 6.3: Install PyMC
+
+<kbd> pip install -e . </kbd>
+
+NOTE: This step took me about 1 minute on my Mac. 
+
+### 6.4: Install `precommit`
+
+<kbd> pip install pre-commit </kbd>
+
+
+
+
   
 
 
