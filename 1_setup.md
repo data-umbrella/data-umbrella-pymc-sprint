@@ -68,6 +68,10 @@ NOTE: I use a directory called `software-build` where I clone my python librarie
 
 ## PART 3: Fork & clone, set remotes
 
+### 3.1: Fork the repo
+
+### 3.2: Clone the repo
+
 NOTE: this is *my* fork.  You will need to update syntax with your user name.  
 Replace "reshamas" with "your_gh_username"
 
@@ -86,6 +90,8 @@ Resolving deltas: 100% (41734/41734), done.
 ~/software-build   
 ```
 
+### 3.3: `cd` into cloned repo
+
 <kbd> cd </kbd> into the `pymc` folder:  
 ```bash            
 ▶ cd pymc
@@ -93,7 +99,9 @@ Resolving deltas: 100% (41734/41734), done.
 ~/software-build/pymc  main ✔                                     2d  
 ```
 
-Check `remotes`. Note there is one remote:  
+### 3.4: Check remotes
+
+Check `remotes`. Note there is one remote, the `origin`:  
 
 <kbd> git remote -v </kbd>
 
@@ -105,6 +113,34 @@ origin	git@github.com:reshamas/pymc.git (push)
 ~/software-build/pymc  main ✔                                     2d  
 ▶ 
 ```
+
+### 3.5: Add another remote, called `upstream`
+
+<kbd> git remote add upstream git@github.com:pymc-devs/pymc.git </kbd>
+
+```bash
+▶ git remote add upstream git@github.com:pymc-devs/pymc.git
+(base) 
+~/software-build/pymc  main ✔                                     2d  
+▶ 
+```
+
+### 3.6: Check remote(s)
+
+<kbd> git remote -v </kbd>
+
+```bash
+▶ git remote -v
+origin	git@github.com:reshamas/pymc.git (fetch)
+origin	git@github.com:reshamas/pymc.git (push)
+upstream	git@github.com:pymc-devs/pymc.git (fetch)
+upstream	git@github.com:pymc-devs/pymc.git (push)
+(base) 
+~/software-build/pymc  main ✔                                     2d  
+▶ 
+```
+
+
 
 
 
