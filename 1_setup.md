@@ -68,4 +68,32 @@ NOTE: I use a directory called `software-build` where I clone my python librarie
 
 ## PART 3: Fork & clone, set remotes
 
+NOTE: this is *my* fork.  You will need to update syntax with your user name.  
+Replace "reshamas" with "your_gh_username"
+
+<kbd> git@github.com:reshamas/pymc.git </kbd>
+
+```bash
+▶ git clone git@github.com:reshamas/pymc.git
+Cloning into 'pymc'...
+remote: Enumerating objects: 57337, done.
+remote: Counting objects: 100% (630/630), done.
+remote: Compressing objects: 100% (292/292), done.
+remote: Total 57337 (delta 419), reused 482 (delta 337), pack-reused 56707
+Receiving objects: 100% (57337/57337), 735.38 MiB | 24.10 MiB/s, done.
+Resolving deltas: 100% (41734/41734), done.
+(base) 
+~/software-build   
+```
+
+<kbd> cd </kbd> into the `pymc` folder:  
+```bash            
+▶ cd pymc
+(base) 
+~/software-build/pymc  main ✔                                     2d  
+```
+
+
+
+
 
