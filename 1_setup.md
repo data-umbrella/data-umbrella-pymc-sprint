@@ -199,6 +199,18 @@ NOTE: This step took me about 1 minute on my Mac.
 
 <kbd> pip install pre-commit </kbd>
 
+---
+
+## PART 7: Work on issue (Ensure that functions's docstrings pass numpydoc validation)
+
+1. Will pick this one:  
+`pymc.sampling.instantiate_steppers`
+1. Which is in this file:  [pymc/sampling.py](https://github.com/pymc-devs/pymc/blob/main/pymc/sampling.py)
+1. Run numpy validation as:  
+```bash
+pytest pymc/tests/test_docstrings.py -k pymc.sampling.instantiate_steppers
+```
+
 
 
 
