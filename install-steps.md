@@ -31,5 +31,6 @@ conda 4.10.3
 Python 3.9.7
 ```
 
-
+### Text Editor
+Visual Studio Code
 
