@@ -5,7 +5,7 @@
 https://github.com/reshamas
 
 ### Git
-#### <kbd>  git --version  </kbd> 
+<kbd>  git --version  </kbd> 
 
 ```
 git version 2.19.0
@@ -23,6 +23,8 @@ git version 2.19.0
 ```
 conda 4.10.3
 ```
+
+### Python
 
 <kbd>  python --version    </kbd>
 
