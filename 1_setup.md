@@ -167,7 +167,7 @@ Switched to a new branch 'docstring_update'
 (END)
 ```
 
-For me, I hit <kbd> q <kbd> to exit.
+For me, I hit <kbd> q </kbd> to exit.
   
 ---
   
