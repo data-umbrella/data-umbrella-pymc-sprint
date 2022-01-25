@@ -1,38 +1,32 @@
 ## PyMC Environment Setup
 
 ### GitHub Account
-Yes.  
+
 https://github.com/reshamas
 
 ### Git
-```bash
-git --version
-```
+<kbd>  git --version  </kbd> 
 
 ```
 git version 2.19.0
 ```
 
 ### Conda
-```bash
-which python
-```
+<kbd> which python  </kbd>
 
 ```bash
 /Users/reshamashaikh/miniforge3/bin/python
 ```
 
-```bash
-conda --version
-```
+<kbd> conda --version  </kbd>
 
 ```
 conda 4.10.3
 ```
 
-```bash
+<kbd>
 python --version
-```
+ </kbd>
 
 ```
 Python 3.9.7
