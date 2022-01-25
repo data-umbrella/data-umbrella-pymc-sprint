@@ -2,6 +2,9 @@
 
 ## PART 1: Pre-reqs to contributing
 
+Contributing Guide:  [PyMC CONTRIBUTING.md](https://github.com/pymc-devs/pymc/blob/main/CONTRIBUTING.md)
+
+
 ### GitHub Account
 
 https://github.com/reshamas
