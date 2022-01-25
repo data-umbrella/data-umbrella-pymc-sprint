@@ -71,7 +71,7 @@ NOTE: I use a directory called `software-build` where I clone my python librarie
 NOTE: this is *my* fork.  You will need to update syntax with your user name.  
 Replace "reshamas" with "your_gh_username"
 
-<kbd> git@github.com:reshamas/pymc.git </kbd>
+<kbd> git clone git@github.com:reshamas/pymc.git </kbd>
 
 ```bash
 ▶ git clone git@github.com:reshamas/pymc.git
@@ -93,6 +93,18 @@ Resolving deltas: 100% (41734/41734), done.
 ~/software-build/pymc  main ✔                                     2d  
 ```
 
+Check `remotes`. Note there is one remote:  
+
+<kbd> git remote -v </kbd>
+
+```bash
+▶ git remote -v
+origin	git@github.com:reshamas/pymc.git (fetch)
+origin	git@github.com:reshamas/pymc.git (push)
+(base) 
+~/software-build/pymc  main ✔                                     2d  
+▶ 
+```
 
 
 
