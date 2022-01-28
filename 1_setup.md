@@ -2,8 +2,9 @@
 
 ## PART 1: Pre-reqs to contributing
 
-Contributing Guide:  [PyMC CONTRIBUTING.md](https://github.com/pymc-devs/pymc/blob/main/CONTRIBUTING.md)
-
+- Contributing Guide:  [PyMC CONTRIBUTING.md](https://github.com/pymc-devs/pymc/blob/main/CONTRIBUTING.md)
+- Docstring Tutorial:  https://pymc-data-umbrella--13.org.readthedocs.build/en/13/sprint/docstring_tutorial.html
+- https://pymc-data-umbrella--13.org.readthedocs.build/en/13/webinars/contributing_to_documentation/docs_presentation.html
 
 ### GitHub Account
 
