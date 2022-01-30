@@ -212,8 +212,25 @@ NOTE: This step took me about 1 minute on my Mac.
 pytest pymc/tests/test_docstrings.py -k pymc.sampling.instantiate_steppers
 ```
 
+---
 
+## PART 8: changes made to file
 
+1. array-like of shape (n_samples, n_samples)
+```
+    Parameters
+    ----------
+    model : Model object
+        A fully-specified model object
+    steps : list, **array_like of shape (selected_steps, )**
+        A list of zero or more step function instances that have been assigned to some subset of
+        the model's parameters.
+    selected_steps : dict
+        A dictionary that maps a step method class to a list of zero or more model variables.
+    step_kwargs : dict, **default=None**
+        Parameters for the samplers. Keys are the lower case names of
+        the step method, values a dict of arguments. Defaults to None.
+```
 
   
 
