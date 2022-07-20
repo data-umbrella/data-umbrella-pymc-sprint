@@ -17,3 +17,8 @@ pymc-projects/pymc-devs-repos/pymc-examples  nb_bayes_factor ✗                
 Instructions for installing pre-commit:  
 https://pre-commit.com/
  
+Run `pre-commit`:  
+```bash
+pymc-projects/pymc-devs-repos/pymc-examples  main ✔                                                     1m  ⍉
+▶ pre-commit run --files examples/diagnostics_and_criticism/Bayes_factor.ipynb
+```
