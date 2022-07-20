@@ -22,3 +22,12 @@ Run `pre-commit`:
 pymc-projects/pymc-devs-repos/pymc-examples  main ✔                                                     1m  ⍉
 ▶ pre-commit run --files examples/diagnostics_and_criticism/Bayes_factor.ipynb
 ```
+
+Steps:  
+`git add myst_nbs/diagnostics_and_criticism/Bayes_factor.myst.md`
+
+`git status` should show that the file has been added
+check that's the correct path   
+also be sure that the notebook itself had been added Bayes_factor.ipynb  
+probably something like
+`git add examples/diagnostics_and_criticism/Bayes_factor.ipynb`
