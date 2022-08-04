@@ -22,6 +22,10 @@ Run `pre-commit`:
 pymc-projects/pymc-devs-repos/pymc-examples  main ✔                                                     1m  ⍉
 ▶ pre-commit run --files examples/diagnostics_and_criticism/Bayes_factor.ipynb
 ```
+Or run `pre-commit` on all files:
+```bash
+pre-commit run --all
+```
 
 Steps:  
 `git add myst_nbs/diagnostics_and_criticism/Bayes_factor.myst.md`
