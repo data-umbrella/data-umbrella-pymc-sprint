@@ -1,7 +1,7 @@
 
 ## References
 - Issue #6612:  https://github.com/pymc-devs/pymc/issues/6612
-- `def check_icdf_value` is in this file: [dist_math](https://github.com/pymc-devs/pymc/blob/main/pymc/distributions/dist_math.py
+- `def check_icdf_value` is in this file: [dist_math](https://github.com/pymc-devs/pymc/blob/main/pymc/distributions/dist_math.py)
 
 ## Workflow
 1. Determine if the distribution is `Continous` or `Discrete`
